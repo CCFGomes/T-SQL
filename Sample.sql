@@ -113,7 +113,7 @@ FROM Person.Person
 WHERE FirstName LIKE 'A_[^b-d]%' -- A is the first character and the third can not be between b and d
 ORDER BY FirstName, LastName DESC;
 
-SELECT DISTINCT CustomerID, SalesOrderID -- FOR ME SEEMS AWKWARD
+SELECT DISTINCT CustomerID, SalesOrderID -- FOR ME SEEMS AWKWARD -- check it later
 FROM Sales.SalesOrderHeader
 ORDER BY 1;
 
